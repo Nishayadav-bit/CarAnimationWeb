@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuplting DOM</title>
 </head>
 <body>
-    <h1>this </h1>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>More about us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+
+    </div>
+<Script>
+   // var str ="This is a string";
+   // console.log(str);
+    //First Occurence of substring
+   // var position =str.indexOf('is');
+   // console.log(position);
+    //last Occurance of substring
+    // position =str.lastIndexOf('is');
+   // console.log(position);
+  // let names=["youtube","facebook","instagram","netflix","amazon"];
+  // for( n of names){
+    //   console.log(n);
+  // }
+ let main = document.getElementById('main');
+ console.log(main);
+
+let nav=document.getElementById('nav');
+console.log(nav);
+
+let sel= document.querySelector('.container');
+console.log("Selector returnd ",sel);
+
+</Script>
+    
 </body>
 </html>
